@@ -1,0 +1,1 @@
+# vagrant-hyperv-centos7-rails6
