@@ -1,6 +1,6 @@
 #!/bin/sh
 
-sudo yum install https://rpm.nodesource.com/pub_12.x/el/7/x86_64/nodesource-release-el7-1.noarch.rpm
+sudo yum install -y https://rpm.nodesource.com/pub_12.x/el/7/x86_64/nodesource-release-el7-1.noarch.rpm
 sudo yum install -y git wget epel-release openssl-devel readline-devel zlib-devel gcc gcc-c++
 sudo yum install -y nodejs --enablerepo=epel
 
